@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: b3c092472950d7440b806a50f22a4c66
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - prefabProjectile: {instanceID: 0}
+  - fireClip: {fileID: 8300000, guid: d68f7bfba4a78ff4f88b6501f28a9c5e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
