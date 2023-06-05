@@ -1,9 +1,10 @@
 using UnityEngine;
 
-public class Turret : Weapon
+public class Turret : Weapon // INHERITANCE
 {
     [SerializeField] private AudioClip fireClip;
 
+    // POLYMORPHISM
     public override void Fire()
     {
         GameObject launchedMissile = Instantiate(prefabProjectile, transform.position, transform.rotation);

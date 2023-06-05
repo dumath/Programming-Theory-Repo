@@ -1,16 +1,15 @@
 using UnityEngine;
 
-
+// INHERITANCE
 public abstract class Weapon : MonoBehaviour
 {
     [SerializeField] protected GameObject prefabProjectile;
 
     protected int projectileSpeed;
 
-    protected virtual void Start()
-    {
+    // POLYMORPHISM
+    protected virtual void Start() { }
 
-    }
-
+    // POLYMORPHISM
     public abstract void Fire();
 }

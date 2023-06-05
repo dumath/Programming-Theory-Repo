@@ -1,7 +1,8 @@
 using UnityEngine;
 
-public class Missile : Weapon
+public class Missile : Weapon // INHERITANCE
 {
+    // POLYMORPHISM
     public override void Fire()
     {
         GameObject launchedMissile = Instantiate(prefabProjectile, transform.position, Quaternion.identity);
